@@ -1,0 +1,29 @@
+.portfolio {
+	background-color: $grey02;
+
+	&_inner {
+		padding: 50px 0 55px;
+	}
+
+	&_list {
+		margin-top: 54px;
+	}
+
+	&_item:not(:first-child) {
+		margin-top: 87px;
+	}
+
+	&_link {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		color: $black01;
+		margin-top: 40px;
+		text-decoration: underline;
+	}
+
+	&_image {
+		height: 510px;
+		width: 945px;
+	}
+}

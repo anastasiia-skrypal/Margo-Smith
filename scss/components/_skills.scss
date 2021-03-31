@@ -1,0 +1,86 @@
+.skills {
+	&_inner {
+		padding: 50px 0 65px;
+	}
+
+	&_list {
+		margin-top: 55px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&_item {
+		width: 168px;
+		position: relative;
+		padding-bottom: 40px;
+	}
+
+	&_name {
+		text-align: center;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 16px;
+		color: $grey01;
+		height: 27px;
+		margin-bottom: -7px;
+	}
+
+	&_item::before {
+		display: block;
+		width: 168px;
+		height: 87px;
+		content: "";
+		margin-bottom: 22px;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 16px;
+		text-align: center;
+	}
+
+	&_item::after {
+		display: block;
+		width: 168px;
+		height: 26px;
+		content: '';
+		position: absolute;
+		bottom: -15px;
+	}
+}
+
+.photoshop::before {
+	background: url(../img/photoshop.png) center no-repeat;
+	background-size: auto 100%;
+
+}
+.illustrator::before {
+	background: url(../img/illustrator.png) center no-repeat;
+	background-size: auto 100%;
+}
+.aftereffects::before {
+	background: url(../img/after_effects.png) center no-repeat;
+	background-size: auto 100%;
+}
+.figma::before {
+	background: url(../img/figma.png) center no-repeat;
+	background-size: auto 100%;
+}
+
+.photoshop::after {
+	background: url(../img/stars_four.png) center no-repeat;
+	background-size: 100% 100%;
+}
+
+.illustrator::after {
+	background: url(../img/stars_three.png) center no-repeat;
+	background-size: 100% 100%;
+}
+
+.aftereffects::after {
+	background: url(../img/stars_four.png) center no-repeat;
+	background-size: 100% 100%;
+}
+
+.figma::after {
+	background: url(../img/stars_five.png) center no-repeat;
+	background-size: 100% 100%;
+}

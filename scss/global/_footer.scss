@@ -1,0 +1,17 @@
+.contacts {
+	padding: 50px 0 60px;
+
+	&_list {
+		display: flex;
+		justify-content: center;
+		margin-top: 31px;
+	}
+
+	&_item {
+		margin: 0 30px;
+	}
+
+	&_link {
+		font-size: 0;
+	}
+}
